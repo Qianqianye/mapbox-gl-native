@@ -98,11 +98,11 @@
 - Fade transitions are now ignored to prevent half faded labels. ([#942](https://github.com/mapbox/mapbox-gl-native/pull/942))
 - Labels can now line wrap on hyphens and other punctuation. ([#2598](https://github.com/mapbox/mapbox-gl-native/pull/2598))
 
-# 1.1.3
+# 1.1.3 - June 25, 2015
 
 - Removes deprecated mbgl::Environment from NodeLogObserver.
 
-# 1.1.2
+# 1.1.2 - June 22, 2015
 
 - Check libuv version semver-ishly, fixes segfaults in Node.js 0.12.x
   and io.js.
@@ -110,11 +110,11 @@
   render without first loading a style.
 - Bumps mbgl submodule to v0.4.0
 
-# 1.1.1
+# 1.1.1 - June 16, 2015
 
 - Bumps mbgl submodule to v0.3.5
 
-# 1.1.0
+# 1.1.0 - June 15, 2015
 
 - Adds Node.js v0.12.x and io.js support.
 - Adds `map.release()` method for manual cleanup of map resources.
@@ -130,23 +130,23 @@
 - Fixes uncaught exception from missing sprites.
 - Fixes Unicode glyph range end.
 
-# 1.0.3
+# 1.0.3 - April 3, 2015
 
 - Fixes crash during garbage collection by assigning FileSource handle 
   to a v8::Persistent in NodeMap constructor.
 
-# 1.0.2
+# 1.0.2 - April 2, 2015
 
 - Initialize shared display connection at module load time to avoid 
   race condition when display connection is initialized on-demand.
 
-# 1.0.1
+# 1.0.1 - March 19, 2015
 
 - Adapts NodeFileSource around mbgl::Environment additions.
 - Adapts to minor changes in mapbox-gl-test-suite.
 - Adds tests for gzipped vector tile handling.
 - Cleans up documentation.
 
-# 1.0.0
+# 1.0.0 - February 25, 2015
 
 - Initial release.
